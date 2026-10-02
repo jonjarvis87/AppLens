@@ -1,0 +1,25 @@
+# Generated reports — never commit tenant data
+AppLens-Report*.html
+AppLens-Report*.zip
+*-Snapshot.json
+*-export.csv
+*-export.json
+
+# Local config / secrets
+*.local.ps1
+.env
+secrets.json
+appsettings.local.json
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+.claude/
+*.swp
+*~
+
+# PowerShell logs
+*.log
